@@ -1,0 +1,107 @@
+    html {
+        box-sizing: border-box;
+    }
+    
+    *,
+    *:before,
+    *:after {
+        box-sizing: inherit;
+    }
+    
+    body {
+        /* display: flex; */
+        background-color: #EDF2C5;
+        max-width: 1260px;
+        max-height: 940px;
+        margin-left: auto;
+        margin-right: auto;
+        /* flex-direction: column; */
+        /* align-items: flex-end; */
+        margin-bottom: 0;
+    }
+    
+    .all {
+        width: 940px;
+        margin-left: auto;
+        margin-right: auto;
+        margin: 0 160px;
+    }
+    
+    .home-header {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .set {
+        /* display: flex; */
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    
+    .home-title1 {
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+    
+    .home-title2 {
+        margin-top: 0;
+        margin-left: 40px;
+        font-size: 60px;
+    }
+    
+    .home-nav {
+        display: flex;
+        justify-content: flex-end;
+        gap: 100px;
+        margin-bottom: 15px;
+    }
+    
+    .home-contain {
+        display: flex;
+        margin-top: 15px;
+    }
+    
+    .home-article {
+        /* width: 20%; */
+    }
+    
+    .home-aside {
+        /* width: 60%; */
+    }
+    
+    .top5-title1 {
+        margin-bottom: 0;
+    }
+    
+    .top5-title2 {
+        margin-top: 0;
+        margin-left: 40px;
+        font-size: 60px;
+    }
+    
+    .top5-nav {
+        display: flex;
+        justify-content: flex-end;
+        gap: 100px;
+    }
+    
+    .top5-contain {
+        margin-bottom: 15px;
+    }
+    
+    .top5-contain-item {
+        display: flex;
+        margin-top: 15px;
+        justify-content: space-between;
+    }
+    
+    .sell-nav {
+        display: flex;
+        justify-content: flex-end;
+        gap: 100px;
+    }
+    
+    .sell-contain {
+        display: flex;
+        margin-top: 15px;
+    }
