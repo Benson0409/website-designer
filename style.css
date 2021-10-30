@@ -56,6 +56,10 @@
         margin-bottom: 15px;
     }
     
+    .home-screen2 {
+        line-height: 5px;
+    }
+    
     .home-contain {
         display: flex;
         margin-top: 15px;
@@ -93,6 +97,10 @@
         display: flex;
         margin-top: 15px;
         justify-content: space-between;
+    }
+    
+    .sell-title {
+        font-size: 30px;
     }
     
     .sell-nav {
