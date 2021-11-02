@@ -54,7 +54,7 @@ body {
     background-color: #464646;
     margin: 0;
     padding: 0;
-    width: 9%;
+    width: 116px;
 }
 
 .top5-screen:hover .top5 {
@@ -191,6 +191,7 @@ body {
     font-size: 30px;
     color: #689473;
     font-family: 'Anton', sans-serif;
+    /* line-height: 0.9; */
 }
 
 .top5-article {
@@ -212,7 +213,6 @@ body {
 
 .top5-footer {
     background-color: #2E2E2E;
-    ;
     height: 50px;
     margin-top: 6px;
 }
@@ -376,6 +376,8 @@ body {
     font-size: 25px;
     color: #689473;
     font-family: 'Anton', sans-serif;
+    line-height: 0.8;
+    margin-bottom: 10px;
 }
 
 .article-head-item {
